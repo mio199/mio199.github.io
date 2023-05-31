@@ -1,0 +1,380 @@
+header{
+    padding: 25px 58px;
+    background-color: navy;
+
+}
+
+header nav img{
+    width: 35%;
+    height: 35%;
+}
+
+header nav ul{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+
+header nav ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+header nav ul li a:hover{
+    background-color: chocolate;
+}
+
+#Novedades{
+    margin: 3% 0%;
+    border: 3,5px;
+    display: block;
+}
+
+
+#NovedadProductos ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+#MasVendidos{
+    margin: 3% 0%;
+    margin-top: 0%;
+}
+
+div li{
+    list-style: none;
+}
+
+.NovedadTitulo{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px;
+    border-bottom-style: double;
+    border-color: #1260f1;
+}
+
+.ProductoNovedad {
+    border:5px;
+    border-radius: 2%;
+    border-style: dashed;
+    border-color: #1260f1;
+}
+
+.ProductoNovedad img{
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.InfoProductoNov{
+    padding: 2%;
+    background-color: #1260f1;
+    color: #f8fbff;
+}
+
+.InfoProductoNov b{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 2% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72%;
+}
+
+.productoprecio{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+.botoncompra {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: 5%;
+}
+
+.botoncompra:hover {
+    background-color: darkorange;
+}
+
+#MasVendidos ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.MasVendidosTitulo {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px;
+    border-bottom-style: double;
+    border-color: #6cb113;
+}
+
+.MejoresProductos {
+    border:5px;
+    border-radius: 2%;
+    border-style: dashed;
+    border-color: #6cb113;
+}
+
+.MejoresProductos img{
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.InfoProductoMejor {
+    padding: 2%;
+    background-color: #6cb113;
+    color: #f8fbff;
+}
+
+.InfoProductoMejor b{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 2% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72%;
+}
+
+#SeleccionSwitch{
+    margin: 3% 0%;
+    border: 3,5px;
+    display: block;
+}
+
+
+#SeleccionSwitch ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.TituloSwitch {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px;
+    border-bottom-style: double;
+    border-color: #c22612;
+}
+
+.ProductosSwitch {
+    border:5px;
+    border-radius: 2%;
+    border-style: dashed;
+    border-color: #c22612;
+}
+
+.ProductosSwitch img{
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.InfoProductoSwitch {
+    padding: 2%;
+    background-color: #c22612;
+    color: #f8fbff;
+}
+
+.InfoProductoSwitch b{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 2% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72%;
+}
+
+#SeleccionPlay{
+    margin: 3% 0%;
+    border: 3,5px;
+    display: block;
+}
+
+
+#SeleccionPlay ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.TituloPlay {
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    border-bottom: 5px;
+    border-bottom-style: double;
+    border-color: #0a36ca;
+}
+
+.ProductosPlay {
+    border:5px;
+    border-radius: 2%;
+    border-style: dashed;
+    border-color: #0a36ca;
+}
+
+.ProductosPlay img{
+    display: block;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.InfoProductoPlay {
+    padding: 2%;
+    background-color: #0a36ca;
+    color: #f8fbff;
+}
+
+.InfoProductoPlay b{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 2% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72%;
+}
+
+#Atencion {
+    margin: 1.5% 0.5% 2% 0.5%;
+    padding: 1.5% 0.5%;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkorange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    height: auto;
+    background-color: navy;
+    color: #f8fbff;
+}
+
+#Entrega {
+    margin: 1.5% 0.5% 2% 0.5%;
+    padding: 1.5% 0.5%;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkorange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    height: auto;
+    background-color: navy;
+    color: #f8fbff;
+}
+
+table {
+    margin: 2% 0.5%;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.tabla{
+    color: orangered;
+}
+
+.turno{
+    color:chocolate;
+}
+
+.dias{
+    font-weight: bold;
+}
+
+.domingo{
+    color: brown;
+    font-size: large;
+}
+
+.semana{
+    color: forestgreen;
+    font-size: large;
+}
+
+.sabado{
+    color: midnightblue;
+    font-size: large;
+}
+
+.horadom{
+    text-align: center;
+    font-style: italic; 
+    color: red;
+}
+
+.horasem{
+    text-align: center;
+    font-style: italic;
+    color: green;
+
+}
+
+.horasab{
+    text-align: center;
+    font-style: italic;
+    color:blue
+}
+
+#Contacto{
+    margin: 4% 0.5%;
+}
+
+#Informacion {
+    padding: 1.5% 0.5%;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkorange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    height: auto;
+    background-color: navy;
+    color: #f8fbff;
+}
+
+#formulario{
+    margin-top: 50px;
+    padding: 30px 10px;
+    border-color: greenyellow;
+    border-style: groove;
+    width: 26%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkorange;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+footer .copyright{
+    color: ivory;
+    text-align: center;
+}
+
+
+footer .redsocial li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+footer .redsocial img{
+    width: 90%;
+    height: 90%;
+}

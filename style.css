@@ -1,7 +1,8 @@
 header{
     padding: 25px 58px;
     background-color: navy;
-
+    width: 100%;
+    height: 100%;
 }
 
 header nav img{
@@ -251,7 +252,34 @@ div li{
 }
 
 #Atencion {
-    margin: 1.5% 0.5% 2% 0.5%;
+    display: flex;
+    justify-content: center;
+}
+
+#Atencion-Informacion {
+    margin: 2.5% 0.5% 3% 0.5%;
+    padding: 0.5%;
+    border: 5px;
+    border-style: dashed;
+    border-color: darkorange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    height: auto;
+    background-color: navy;
+    color: #f8fbff;
+}
+
+#Atencion-Horarios {
+    margin: 3.5% 0.5% 3% 0.5%;
+}
+
+#Entrega {
+    display: flex;
+    justify-content: center;
+}
+
+#Entrega-Informacion {
+    margin: 1.5% 0.5% 3% 0.5%;
     padding: 1.5% 0.5%;
     border: 5px;
     border-style: dashed;
@@ -263,17 +291,8 @@ div li{
     color: #f8fbff;
 }
 
-#Entrega {
-    margin: 1.5% 0.5% 2% 0.5%;
-    padding: 1.5% 0.5%;
-    border: 5px;
-    border-style: dashed;
-    border-color: darkorange;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 35%;
-    height: auto;
-    background-color: navy;
-    color: #f8fbff;
+#Entrega-Horarios {
+    margin: 2.5% 0.5% 3% 0.5%;
 }
 
 table {
@@ -328,6 +347,8 @@ table {
 }
 
 #Contacto{
+    display: flex;
+    justify-content: space-around;
     margin: 4% 0.5%;
 }
 

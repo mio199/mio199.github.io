@@ -71,7 +71,7 @@ div li{
 }
 
 .ProductoNovedad img{
-    display: block;
+    display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
@@ -369,7 +369,13 @@ table {
     padding: 30px 10px;
     border-color: greenyellow;
     border-style: groove;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 26%;
+}
+
+#formulario textarea{
+    width: 100%;
+
 }
 
 footer{
@@ -398,4 +404,259 @@ footer .redsocial li{
 footer .redsocial img{
     width: 90%;
     height: 90%;
+}
+
+@media (max-width: 480px){
+
+    header {
+        margin: 0px;
+        padding: 25px 5px;
+    }
+    header img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: 55%;
+    }
+    
+    header nav ul{
+        display:block;
+        padding: 10px;
+        font-size: 25px;
+    
+    }
+
+    header nav ul li {
+        padding-bottom: 10px;
+    }
+
+    #NovedadProductos ul{
+        display: block;
+    }
+
+    #NovedadProductos ul li {
+        padding: 10px 0px;
+    }
+
+    .ProductoNovedad img {
+        width: 100%;
+    }
+
+    .InfoProductoNov b {
+        font-size: 125%;
+    }
+
+    .productointeraccion p {
+        font-size: 10%;
+    }
+
+    #MasVendidos ul{
+        display: block;
+    }
+
+    #MasVendidos ul li {
+        padding: 10px 0px;
+    }
+
+    .MejoresProductos img {
+        width: 100%;
+    }
+
+    .InfoProductoMejor b {
+        font-size: 125%;
+    }
+
+    #SeleccionSwitch ul{
+        display: block;
+    }
+
+    #SeleccionSwitch ul li{
+        padding: 10px 0px;
+    }
+
+    .ProductosSwitch img {
+        width: 100%;
+    }
+
+    .InfoProductoSwitch b {
+        font-size: 125%;
+    }
+
+    #SeleccionPlay ul{
+        display: block;
+    }
+
+    #SeleccionPlay ul li{
+        padding: 10px 0px;
+    }
+
+    .ProductosPlay img {
+        width: 100%;
+    }
+
+    .InfoProductoPlay b {
+        font-size: 125%;
+    }
+
+    #Atencion {
+        display: block;
+    }
+
+    #Atencion-Informacion {
+        width: 100%;
+    }
+
+    #Atencion-Horarios table{
+        width: 95%;
+    }
+
+    #Entrega {
+        display: block;
+    }
+
+    #Entrega-Informacion {
+        width: 100%;
+    }
+
+    .tabla{
+        width: 95%;
+    }
+
+    #Contacto {
+        display: block;
+    }
+
+    #Informacion {
+        width: 100%;
+    }
+
+    #formulario {
+        width: 65%;
+        margin-bottom: 10%;
+    }
+
+    footer {
+        display: block;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 950px) {
+
+    header {
+        width: 85%;
+    }
+
+    header img{
+        display: block;
+        width: 55%;
+        height: 55%;
+    }
+
+    header nav ul{
+        padding: 10px 0px;
+        font-size: 85%;
+    }
+
+
+
+    #NovedadProductos ul li {
+        padding: 0px 10px;
+    }
+
+    .ProductoNovedad img {
+        width: 100%;
+    }
+
+    .productoprecio {
+        font-size: small;
+    }
+
+    .InfoProductoNov b {
+        font-size: 60%;
+    }
+
+    .botoncompra {
+        font-size: 28%;
+    }
+
+    #MasVendidos ul li {
+        padding: 0px 10px;
+    }
+
+    .MejoresProductos img {
+        width: 100%;
+    }
+
+    .InfoProductoMejor b {
+        font-size: 60%;
+    }
+
+    #SeleccionSwitch ul li{
+        padding: 0px 10px;
+    }
+
+    .ProductosSwitch img {
+        width: 100%;
+    }
+
+    .InfoProductoSwitch b {
+        font-size: 60%;
+    }
+
+    #SeleccionPlay ul li{
+        padding: 0px 10px;
+    }
+
+    .ProductosPlay img {
+        width: 100%;
+    }
+
+    .InfoProductoPlay b {
+        font-size: 60%;
+    }
+
+    #Atencion {
+        display: block;
+    }
+
+    #Atencion-Informacion {
+        width: 96%;
+    }
+
+    #Atencion-Horarios table{
+        width: 95%;
+    }
+
+    #Entrega {
+        display: block;
+    }
+
+    #Entrega-Informacion {
+        width: 96%;
+    }
+
+    .tabla{
+        width: 95%;
+    }
+
+    #Contacto {
+        display: block;
+    }
+
+    #Informacion {
+        width: 97%;
+    }
+
+    #formulario {
+        width: 65%;
+        margin-bottom: 10%;
+    }
+
+    footer {
+        display: inline-block;
+        width: 100%;
+    }
+
+
 }

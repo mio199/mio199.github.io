@@ -2,10 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Tienda de videojuegos digital - Contacto</title>
 </head>
 <body>
+    <script>
+            window.alert("Recuerde. Antes de ponerte en contacto, complete todos los datos requeridos.");
+    </script>
     <header>
         <div id="superior">
             <img src="Imagenes/Tienda_Videojuegos_Logo_Blanco.png" alt="Jueclave-logo">
@@ -25,11 +30,17 @@
             <h1>formulario de Contacto</h1>
             <p>En esta seccion puedes escribir tus dudas sobre un juego, si vamos a agregar otros titulos, si tienen problemas de instalacion, serán respondidos por redes sociales.</p>
         </div>
-        <form id="formulario">
+        <form id="formulario" action="">
             <label>Nombre:</label>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" required>
             <label>Apellido:</label>
-            <input type="text" name="apellido">
+            <input type="text" name="apellido" required>
+            <br>
+            <label>Correo electronico:</label>
+            <input type="email" name="correo" required>
+            <br>
+            <label>telefono:</label>
+            <input type="number" name="telefono" required>
             <br>
             <label>Indique su sexo</label> <br>
             <label>hombre</label> <input type="radio" name="sexo">
